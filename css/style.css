@@ -188,9 +188,21 @@ h1 {
 
 .bottom-text {
     width: 50%;
-    height: 200px;
-    background-color: yellow;
+    height: 160px;
     margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.bottom-text > p {
+    margin-top: 25px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.bottom-text > h2 {
+    font-size: 26px;
 }
 
 .bottom-img {
