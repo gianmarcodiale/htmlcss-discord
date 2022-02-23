@@ -210,3 +210,21 @@ h1 {
     height: 500px;
     margin: auto;
 }
+
+.ready {
+    text-align: center;
+    height: 120px;
+    margin-top: 120px;
+    position: relative;
+}
+
+#bottom_dl {
+    position: absolute;
+    left: 43%;
+    top: 50%;
+    background-color: #8EA1E1;
+}
+
+#bottom_dl > a {
+    color: white;
+}
