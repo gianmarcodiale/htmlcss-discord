@@ -5,7 +5,6 @@
 }
 
 body {
-    height: 100vh;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -68,7 +67,7 @@ nav .login {
 
 .main_title {
     width: 50%;
-    height: 370px;
+    height: 390px;
     margin: auto;
     position: relative;
     text-align: center;
@@ -139,11 +138,18 @@ h1 {
     clear: both;
 }
 
+.section img {
+    width: 400px;
+    position: absolute;
+    top: 30%;
+}
+
 .img {
-    width: 70%;
+    width: 60%;
     height: 500px;
     background-color: blueviolet;
     float: left;
+    position: relative;
 }
 
 .text-right {
