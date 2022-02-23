@@ -173,6 +173,13 @@ h1 {
     line-height: 20px;
 }
 
+.text-left {
+    width: 30%;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+
 .bottom-text {
     width: 50%;
     height: 200px;
