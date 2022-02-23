@@ -128,7 +128,7 @@ h1 {
 }
 
 .section {
-    width: 50%;
+    width: 80%;
     margin: auto;
 }
 
@@ -139,15 +139,14 @@ h1 {
 }
 
 .section img {
-    width: 400px;
+    width: 600px;
     position: absolute;
-    top: 30%;
+    top: 20%;
 }
 
 .img {
-    width: 60%;
+    width: 50%;
     height: 500px;
-    background-color: blueviolet;
     float: left;
     position: relative;
 }
@@ -155,8 +154,23 @@ h1 {
 .text-right {
     width: 30%;
     height: 500px;
-    background-color: chartreuse;
     float: left;
+    position: relative;
+}
+
+.text_content {
+    position: absolute;
+    top: 26%;
+    left: 20%;
+    color: #23272A;
+    width: 62%;
+    font-size: 18px;
+}
+
+.text_content > p {
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 20px;
 }
 
 .bottom-text {
