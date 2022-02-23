@@ -12,6 +12,11 @@ a {
     text-decoration: none;
 }
 
+.section-gray {
+    width: 100%;;
+    background-color: #F6F6F6;
+}
+
 
 /* header */
 .container {
@@ -129,6 +134,7 @@ h1 {
 
 .section {
     width: 80%;
+    height: 600px;
     margin: auto;
 }
 
@@ -139,7 +145,7 @@ h1 {
 }
 
 .section img {
-    width: 600px;
+    width: 670px;
     position: absolute;
     top: 20%;
 }
@@ -161,7 +167,7 @@ h1 {
 .text_content {
     position: absolute;
     top: 26%;
-    left: 20%;
+    left: 40%;
     color: #23272A;
     width: 62%;
     font-size: 18px;
