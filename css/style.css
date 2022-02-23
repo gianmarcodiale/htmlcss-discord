@@ -8,29 +8,78 @@ body {
     height: 100vh;
 }
 
-.bg_img {
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-image: url(../img/jumbo.png);
-    background-repeat: no-repeat;
+.container {
+    background-color: aquamarine;
 }
 
-nav {
-    width: 70%;
+.navigation {
     margin: auto;
+    background-color: blue;
+    width: 70%;
+    height: 100px;
+}
+
+.main_title {
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    background-color: red;
     position: relative;
 }
 
-.logo {
-    width: 85px;
+.download {
+    width: 150px;
+    height: 50px;
+    background-color: beige;
     position: absolute;
-    left: 10px;
-    top: 10px;
+    bottom: 30px;
+    left: 30px;
 }
 
-.nav_text {
-    text-align: center;
-    color: white;
-    padding: 10px;
+.open {
+    width: 150px;
+    height: 50px;
+    background-color: beige;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.section {
+    width: 50%;
+    margin: auto;
+}
+
+.section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img {
+    width: 70%;
+    height: 500px;
+    background-color: blueviolet;
+    float: left;
+}
+
+.text-right {
+    width: 30%;
+    height: 500px;
+    background-color: chartreuse;
+    float: left;
+}
+
+.bottom-text {
+    width: 50%;
+    height: 200px;
+    background-color: yellow;
+    margin: auto;
+}
+
+.bottom-img {
+    width: 50%;
+    height: 500px;
+    background-color: tomato;
+    margin: auto;
 }
